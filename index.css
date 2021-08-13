@@ -29,26 +29,37 @@ margin:auto;
 padding:30px;
 display:flex;
 justify-content: center;
-height:10%;
+height:5%;
 width:50%;
 }
 
 .search_bar{
-    width:auto;
-    margin:auto;
-    padding:10px;
+    position:relative;
+    background-color: transparent;
+    left:30%;
+    top:20px;
+   border-color:grey;
+    margin:0;
+    width: 40%;
+    padding:0;
+    color:rgba(0,0,0,.87)
+    outline:grey;
     display:flex;
     flex:100%;
-    justify-content: center;
     margin-top:-37px;
     height:34px;
-    white-space: pre;
+    font-size:16px;
+    border-radius:50px;
+    border-color:lightgrey;
+
 }
-.button{
+.Button{
+    position:absolute;
+    left:30%;
     width:auto;
-    margin:auto;
     display:flex;
-    justify-content: space-evenly;
+
+    justify-content: space-between;
 }
 
 footer {
