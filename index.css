@@ -35,49 +35,29 @@ margin:auto;
 padding:30px;
 display:flex;
 justify-content: center;
-height:5%;
-width:50%;
+height: 12vh;
+width:40vh;
 }
 
-.search_bar{
-    max-height:5%;
-    position:relative;
-    background-color: transparent;
-    left:30%;
-    top:20px;
-   border-color:grey;
-    margin:0;
-    width: 40%;
-    padding:0;
-    color:rgba(0,0,0,.87)
-    outline:grey;
+section{
     display:flex;
-    flex:100%;
-    margin-top:-37px;
-    height:34px;
-    font-size:16px;
-    border-radius:50px;
-    border-color:lightgrey;
+    flex-direction:column;
+    align-items:center;
+    margin-top:5vh;
+}
 
-}
-.button1{
-    position:absolute;
-    left:220px;
-    top:250px;
-    width:auto;
+.inputs{
+    display:flex;
+    justify-content:space-between;
+    width:80vh;
     height:34px;
+    border:1px solid lightgrey;
+    border-radius:50px;
 }
-.button2{
-    position:absolute;
-    left:340px;
-    top:250px;
-    width:auto;
-    height:34px;
-}
-#spyglass{
-    position:absolute;
-    left:32%;
-    top:32%;
+.inputs > input{
+    flex-grow:1;
+    border:none;
+    outline:none;
 }
 
 footer {
